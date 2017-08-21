@@ -1,0 +1,13 @@
+i=1
+import random as ran
+num_adivinar = ran.randint(1,10)
+while i <= 3:
+    x = int(input ("Cual numero estoy pensando 1-10? "))
+    if x == num_adivinar:
+        print("Correcto")
+        break
+    else:
+        print("Numero no correcto\n")
+    i+=1
+
+print("Fin del juego", num_adivinar)
